@@ -1,4 +1,4 @@
-# pauloborges:mapbox
+# mahmoudkm:mapbox
 
 Mapbox.js for [Meteor](https://www.meteor.com/) apps.
 
@@ -6,19 +6,19 @@ Version matrix:
 
 Mapbox JS | Mapbox GL
 ----------|----------
-`2.2.3`   | `0.12.1`
+`2.2.3`   | `0.16.0`
 
 ## Install
 
     $ cd to/my/meteor/project
-    $ meteor add pauloborges:mapbox@2.2.3_2
+    $ meteor add mahmoudkm:mapbox@1.0
 
 or (if you want to modify the code):
 
     $ cd to/my/meteor/project
     $ mkdir packages # ensure that packages folder exists
-    $ git clone https://github.com/pauloborges/meteor-mapbox.git packages/pauloborges:mapbox
-    $ meteor add pauloborges:mapbox
+    $ git clone https://github.com/mahmoudkm/meteor-mapbox.git packages/mahmoudkm:mapbox
+    $ meteor add mahmoudkm:mapbox
 
 ## Supported plugins
 
@@ -92,3 +92,10 @@ finished loading. This function is reactive.
             }
         });
     };
+
+
+
+### Copyright
+
+# This package is based on [pauloborges:mapbox](https://github.com/pauloborges/meteor-mapbox) apps.
+

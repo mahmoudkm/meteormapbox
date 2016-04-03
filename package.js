@@ -20,10 +20,10 @@
  */
 
 Package.describe({
-  name:     'pauloborges:mapbox',
+  name:     'mahmoudkm:meteormapbox',
   summary:  'Mapbox.js for Meteor apps',
-  version:  '2.2.3_2',
-  git:      'https://github.com/pauloborges/meteor-mapbox.git'
+  version:  '1.0',
+  git:      'https://github.com/mahmoudkm/meteormapbox.git'
 });
 
 Package.onUse(function (api) {
