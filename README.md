@@ -97,5 +97,5 @@ finished loading. This function is reactive.
 
 ### Copyright
 
-# This package is based on [pauloborges:mapbox](https://github.com/pauloborges/meteor-mapbox) apps.
+This package is based on [pauloborges:mapbox](https://github.com/pauloborges/meteor-mapbox) apps.
 
