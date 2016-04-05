@@ -22,7 +22,7 @@
 Package.describe({
   name:     'mahmoudkm:meteormapbox',
   summary:  'Mapbox.js for Meteor apps',
-  version:  '1.0',
+  version:  '1.0.0',
   git:      'https://github.com/mahmoudkm/meteormapbox.git'
 });
 
