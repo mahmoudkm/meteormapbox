@@ -20,13 +20,14 @@
  */
 
 var FILES = {
+
   mapbox: {
-    js:   ['https://api.tiles.mapbox.com/mapbox.js/v2.2.3/mapbox.js'],
-    css:  ['https://api.tiles.mapbox.com/mapbox.js/v2.2.3/mapbox.css'],
+    js:   ['https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'],
+    css:  ['https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css'],
   },
 
   mapboxgl: {
-    js:   ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.js'],
+    js:   ['https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'],
     css:  ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.css'],
   },
 
@@ -41,8 +42,8 @@ var FILES = {
   },
 
   directionsgl: {
-    js:   ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.js'],
-    css:  ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.css']
+    js:   ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.2.0/mapbox-gl-directions.js'],
+    css:  ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.2.0/mapbox-gl-directions.css']
   },
 
   zoomslider: {
