@@ -17,6 +17,17 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
+
+    directions: {
+      js:   ['https://api.tiles.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'],
+      css:  ['https://api.tiles.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css'] 
+    },
+
+    mapboxgl: {
+      js:   ['https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'],
+      css:  ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.css'],
+    },
+
  */
 
 var FILES = {
@@ -27,8 +38,8 @@ var FILES = {
   },
 
   mapboxgl: {
-    js:   ['https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'],
-    css:  ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.css'],
+    js:   ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js'],
+    css:  ['https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.css'],
   },
 
   turf: {
@@ -36,14 +47,14 @@ var FILES = {
     css:  []
   },
 
-  directions: {
-    js:   ['https://api.tiles.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'],
-    css:  ['https://api.tiles.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css']
+  geocoder: {
+    js:   ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.0.1/mapbox-gl-geocoder.js'],
+    css:  ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.0.1/mapbox-gl-geocoder.css']
   },
 
   directionsgl: {
-    js:   ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.2.0/mapbox-gl-directions.js'],
-    css:  ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.2.0/mapbox-gl-directions.css']
+    js:   ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.0.3/mapbox-gl-directions.js'],
+    css:  ['https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.0.3/mapbox-gl-directions.css']
   },
 
   zoomslider: {
